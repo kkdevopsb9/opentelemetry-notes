@@ -4,3 +4,14 @@ https://github.com/open-telemetry/opentelemetry-demo
 https://opentelemetry.io/docs/demo/architecture/
 
 https://github.com/instana/robot-shop/blob/master/
+
+  eksctl create cluster \
+  --name my-demo-cluster-12 \
+  --region ap-south-1 \
+  --nodegroup-name my-nodegroup \
+  --node-type t2.medium \
+  --node-volume-size 40 \
+  --nodes 3 \
+  --nodes-min 3 \
+  --nodes-max 4 \
+  --managed
