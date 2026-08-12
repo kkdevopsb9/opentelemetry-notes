@@ -9,7 +9,7 @@ https://github.com/instana/robot-shop/blob/master/
   --name my-demo-cluster-12 \
   --region ap-south-1 \
   --nodegroup-name my-nodegroup \
-  --node-type t2.medium \
+  --node-type m7gd.large \
   --node-volume-size 40 \
   --nodes 3 \
   --nodes-min 3 \
